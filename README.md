@@ -24,15 +24,11 @@ In this project, the following tasks were completed:
 For this project, we use a **star schema** optimized for queries on song play analysis.
 
 Schema consists of the following tables:
-
-_Fact tables (measurements, metrics or facts of a business process)_
-**songplays** - records in log data associated with song plays
-
-_Dimension tables (categorize facts and measures to answer a business questions)_
-**users** - users in the app
-**songs** - songs in music database
-**artists** - artists in music database
-**time** - timestamps of records in **songplays** broken down into specific units (hour, day, week, month, year, etc.)
+- **songplays** - _fact table_: records in log data associated with song plays
+- **users** - _dimension table_: users in the app
+- **songs** - _dimension table_: songs in music database
+- **artists** - _dimension table_: artists in music database
+- **time** - _dimension table_: timestamps of records in **songplays** broken down into specific units (hour, day, week, month, year, etc.)
 
 
 **ETL pipeline** performs the following functions:
