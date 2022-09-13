@@ -26,17 +26,12 @@ For this project, we use a **star schema** optimized for queries on song play an
 Schema consists of the following tables:
 
 _Fact tables (measurements, metrics or facts of a business process)_
-
 **songplays** - records in log data associated with song plays
 
 _Dimension tables (categorize facts and measures to answer a business questions)_
-
 **users** - users in the app
-
 **songs** - songs in music database
-
 **artists** - artists in music database
-
 **time** - timestamps of records in **songplays** broken down into specific units (hour, day, week, month, year, etc.)
 
 
